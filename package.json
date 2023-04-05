@@ -1,0 +1,14 @@
+{
+  "name": "bullmq-esm-processor",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "docker-compose up --renew-anon-volumes --force-recreate -d",
+    "test": "node test.js",
+    "posttest": "docker-compose kill"
+  },
+  "dependencies": {
+    "bullmq": "^3.10.3",
+    "p-wait-for": "^5.0.2"
+  }
+}
