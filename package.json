@@ -8,7 +8,7 @@
     "posttest": "docker-compose kill"
   },
   "dependencies": {
-    "bullmq": "^3.10.3",
+    "bullmq": "^4.15.1",
     "p-wait-for": "^5.0.2"
   }
 }
